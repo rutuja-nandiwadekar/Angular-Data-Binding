@@ -7,9 +7,10 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'data-binding';
+  imgUrl= "../assets/BridgeLabz-2.jpg";
 
   ngOnInit(): void {
-    this.title = "Hello from BridgeLabz...";
+    this.title = "Hello from BridgeLabz....";
   }
 }
 
