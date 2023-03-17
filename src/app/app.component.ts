@@ -9,7 +9,7 @@ export class AppComponent {
   title = 'data-binding';
   imgUrl = "../assets/BridgeLabz-2.jpg";
   url = "https://bridgelabz.com/";
-
+  userName: string = "";
 
   ngOnInit(): void {
     this.title = "Hello from BridgeLabz....";
